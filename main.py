@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import*
-from tkinter import ttk 
+from tkinter import ttk
+from turtle import bgcolor 
 
 
 
@@ -15,4 +16,6 @@ cor5= "#eb884b"  #Laranja
 janela=Tk() #criar a janela
 janela.title("calculadora") #titulo da janela
 janela.geometry("235x318") #tamanho da janela
+janela.config(bg=cor1) #mudando cor da janela
 janela.mainloop() 
+
